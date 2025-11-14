@@ -165,8 +165,8 @@ body {
 /* GENERIC SECTIONS */
 .section {
     padding: 100px 30px;
-    max-width: 1000px;
-    margin: auto;
+    max-width: 100%;   /* ændret */
+    margin: 0;         /* ændret */
 }
 
 .partners {
@@ -181,3 +181,4 @@ body {
     background: #eaeaea;
 
 }
+
