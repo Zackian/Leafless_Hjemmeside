@@ -67,10 +67,9 @@ body {
 /* ----- SIDENS INDHOLD ----- */
 .content {
     width: 100%;
-    background: none;
-    padding: 0;
-    margin-top: 50px;
-    box-shadow: none;
+    padding: 50px 0px; 
+    	
+    background: #1F1F1F  !important; 
 }
 
 
@@ -103,7 +102,7 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: 1;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 
@@ -166,19 +165,6 @@ body {
     margin: 0;         /* ændret */
 }
 
-.games {
-   background-color: #000;
-}
-
-.services {
-    background: #f7f7f7;
-}
-
-.contact {
-    background: #eaeaea;
-
-}
-
 
 /* --- INTRO SECTION (Section 1) --- */
 
@@ -187,13 +173,15 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 100px 50px;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%;     
     gap: 50px;
-    background: #f2f2f2; /* lys grå */
+    background: #787878  !important; 
+	padding-top: 20px;
 }
 /* ----- VENSTRE SIDE ----- */
+
+
+
 
 .line-group {
     margin-bottom: 20px;
@@ -210,7 +198,7 @@ body {
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: white;
 }
 
 .intro-bigtext {
@@ -218,6 +206,7 @@ body {
     margin-bottom: 25px;
     max-width: 450px;
     line-height: 1.2;
+	color: white;
 }
 
 .intro-button {
@@ -232,7 +221,7 @@ body {
 }
 
 .intro-button:hover {
-    background-color: #4da3ff;
+    background-color: #000000;
 }
 
 /* ----- HØJRE SIDE: DYNAMISKE BOKSE ----- */
@@ -242,6 +231,8 @@ body {
     grid-template-columns: repeat(3, 1fr); /* MAX 3 pr række */
     gap: 25px;
     flex: 1;
+	
+	 align-self: center;
 }
 
 .feature-box {
@@ -249,10 +240,10 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px 20px;
-    background-color: #f0f0f0;
+    background-color: #787878;
     border-radius: 8px;
     text-decoration: none;
-    color: #222;
+    color: white;
     font-weight: bold;
     text-align: center;
     transition: 0.25s;
@@ -260,7 +251,7 @@ body {
 }
 
 .feature-box:hover {
-    background-color: #4da3ff;
+    background-color: #222;
     color: white;
     border-color: black;
 }
@@ -281,14 +272,3 @@ body {
         font-size: 2.2rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
