@@ -66,14 +66,14 @@ body {
 
 /* ----- SIDENS INDHOLD ----- */
 .content {
-    max-width: 900px;
+    width: 100%;                /* fylder hele bredden */
+    max-width: 100%;            /* fjern begrænsning */
     background: white;
-    margin: 40px auto;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	
 	
-	 margin-top: 100px;
+	 margin-top: 50px;
 }
 
 
@@ -179,4 +179,5 @@ body {
 
 .contact {
     background: #eaeaea;
+
 }
