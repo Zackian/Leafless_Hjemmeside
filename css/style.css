@@ -252,11 +252,11 @@ body {
 
 /* BAGGRUND BILLEDER */
 .box-colorz {
-    background-image: url('img/colorz.jpg');
+    background-image: url('img/Colorz.PNG');
 }
 
 .box-gribley {
-    background-image: url('img/gribley.jpg');
+    background-image: url('img/Leafless - Game Logo Text Only.png');
 }
 
 .box-other {
@@ -329,4 +329,5 @@ body {
         font-size: 1.8rem; /* mindre titel på mobil */
     }
 }
+
 
